@@ -1,14 +1,10 @@
-import { Analytics } from '@vercel/analytics/next';
-import { VercelToolbar } from '@vercel/toolbar/next';
 import type { Metadata } from 'next';
-import { Toaster } from 'sonner';
 
 import './globals.css';
-import { ExamplesBanner } from '@/components/banners/examples-banner';
 
 export const metadata: Metadata = {
-  title: 'Flags SDK Example',
-  description: 'A Flags SDK example for Ecommerce',
+  title: 'Fuel Calculator',
+  description: 'Calculate fuel needed, trip cost, and budget driving range.',
 };
 
 export default function RootLayout({
@@ -18,12 +14,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="antialiased">
-        <ExamplesBanner />
+      <body className="bg-[linear-gradient(180deg,_#fff8f0_0%,_#f8fafc_100%)] antialiased">
         {children}
-        <Toaster />
-        <Analytics />
-        <VercelToolbar />
       </body>
     </html>
   );

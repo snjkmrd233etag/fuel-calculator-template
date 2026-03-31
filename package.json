@@ -1,11 +1,10 @@
 {
-  "name": "shirt-shop",
+  "name": "fuel-calculator",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "install:compat": "node scripts/install.mjs",
     "check": "biome check",
     "start": "next start"
   },
@@ -21,7 +20,7 @@
     "@vercel/edge-config": "^1.4.3",
     "@vercel/toolbar": "0.1.36",
     "clsx": "2.1.1",
-    "flags": "workspace:*",
+    "flags": "4.0.5",
     "js-xxhash": "4.0.0",
     "motion": "12.12.1",
     "nanoid": "5.1.2",
@@ -32,8 +31,8 @@
   },
   "devDependencies": {
     "@types/node": "^22.13.5",
-    "@types/react": "catalog:",
-    "@types/react-dom": "catalog:",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
     "postcss": "^8.5.3",
     "tailwindcss": "^4.0.9",
     "typescript": "^5.7.3"
