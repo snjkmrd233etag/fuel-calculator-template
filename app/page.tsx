@@ -1,5 +1,5 @@
-import { FuelCalculator } from '@/components/fuel-calculator';
+import { RoadCostPlanner } from '@/components/road-cost-planner';
 
 export default function HomePage() {
-  return <FuelCalculator />;
+  return <RoadCostPlanner />;
 }
